@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression">
+  <test name="Print Courses">
+		<parameter name="testname" value="Print Courses Regression Test"/>  
+		<groups>
+		
+			<run>
+				<include name="Regression" />
+			</run>
+		</groups>
+		<classes>
+			<class name="Modules.PrintCourses" />
+		</classes> 
+	</test>
+	<test name="Campus Form ">
+		<parameter name="testname" value="Campus Form Regression Test"/>  
+		<groups>
+		
+			<run>
+				<include name="Regression" />
+			</run>
+		</groups>
+		<classes>
+			<class name="Modules.Form" />
+		</classes> 
+	</test>
+	
+   <!-- Test -->
+</suite> <!-- Regression -->

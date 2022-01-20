@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="333314" started-at="2022-01-20T09:12:32Z" finished-at="2022-01-20T09:18:05Z">
+    <groups>
+      <group name="Functional">
+        <method signature="TestValidData.GoToURL()[pri:1, instance:Modules.CampusForm.TestValidData@13fee20c]" name="GoToURL" class="Modules.CampusForm.TestValidData"/>
+        <method signature="TestInvalidData.GoToURL()[pri:1, instance:Modules.CampusForm.TestInvalidData@5a61f5df]" name="GoToURL" class="Modules.CampusForm.TestInvalidData"/>
+        <method signature="TestInvalidData.NavigateToForm()[pri:2, instance:Modules.CampusForm.TestInvalidData@5a61f5df]" name="NavigateToForm" class="Modules.CampusForm.TestInvalidData"/>
+        <method signature="NullData.GoToURL()[pri:1, instance:Modules.CampusForm.NullData@61dc03ce]" name="GoToURL" class="Modules.CampusForm.NullData"/>
+      </group> <!-- Functional -->
+      <group name="UI">
+        <method signature="TestValidData.GoToURL()[pri:1, instance:Modules.CampusForm.TestValidData@13fee20c]" name="GoToURL" class="Modules.CampusForm.TestValidData"/>
+        <method signature="TestInvalidData.GoToURL()[pri:1, instance:Modules.CampusForm.TestInvalidData@5a61f5df]" name="GoToURL" class="Modules.CampusForm.TestInvalidData"/>
+        <method signature="NullData.GoToURL()[pri:1, instance:Modules.CampusForm.NullData@61dc03ce]" name="GoToURL" class="Modules.CampusForm.NullData"/>
+      </group> <!-- UI -->
+      <group name="Smoke">
+        <method signature="TestValidData.GoToURL()[pri:1, instance:Modules.CampusForm.TestValidData@13fee20c]" name="GoToURL" class="Modules.CampusForm.TestValidData"/>
+        <method signature="TestInvalidData.GoToURL()[pri:1, instance:Modules.CampusForm.TestInvalidData@5a61f5df]" name="GoToURL" class="Modules.CampusForm.TestInvalidData"/>
+        <method signature="TestInvalidData.NavigateToForm()[pri:2, instance:Modules.CampusForm.TestInvalidData@5a61f5df]" name="NavigateToForm" class="Modules.CampusForm.TestInvalidData"/>
+        <method signature="NullData.GoToURL()[pri:1, instance:Modules.CampusForm.NullData@61dc03ce]" name="GoToURL" class="Modules.CampusForm.NullData"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Campus Valid Form" duration-ms="109941" started-at="2022-01-20T09:12:32Z" finished-at="2022-01-20T09:14:22Z">
+      <class name="Modules.CampusForm.TestValidData">
+        <test-method status="PASS" signature="beginTest(java.lang.String)[pri:0, instance:Modules.CampusForm.TestValidData@13fee20c]" name="beginTest" is-config="true" duration-ms="16" started-at="2022-01-20T09:12:32Z" finished-at="2022-01-20T09:12:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Valid Data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTest -->
+        <test-method status="PASS" signature="GoToURL()[pri:1, instance:Modules.CampusForm.TestValidData@13fee20c]" name="GoToURL" duration-ms="28802" started-at="2022-01-20T09:12:32Z" description="Open Browser and Navigate to URL" finished-at="2022-01-20T09:13:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToURL -->
+        <test-method status="PASS" signature="NavigateToForm()[pri:2, instance:Modules.CampusForm.TestValidData@13fee20c]" name="NavigateToForm" duration-ms="54130" started-at="2022-01-20T09:13:01Z" description="Navigate to Ready To Transform Form" finished-at="2022-01-20T09:13:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToForm -->
+        <test-method status="PASS" signature="verifyElements()[pri:3, instance:Modules.CampusForm.TestValidData@13fee20c]" name="verifyElements" duration-ms="1071" started-at="2022-01-20T09:13:55Z" description="Verify Visibility Of Form Elements" depends-on-methods="Modules.CampusForm.TestValidData.NavigateToForm" finished-at="2022-01-20T09:13:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElements -->
+        <test-method status="PASS" signature="fillFormValidData()[pri:4, instance:Modules.CampusForm.TestValidData@13fee20c]" name="fillFormValidData" duration-ms="16561" started-at="2022-01-20T09:13:56Z" description="Fill Form with Valid Data and Verify Results" depends-on-methods="Modules.CampusForm.TestValidData.verifyElements" finished-at="2022-01-20T09:14:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillFormValidData -->
+        <test-method status="PASS" signature="endClass()[pri:0, instance:Modules.CampusForm.TestValidData@13fee20c]" name="endClass" is-config="true" duration-ms="9305" started-at="2022-01-20T09:14:13Z" finished-at="2022-01-20T09:14:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endClass -->
+      </class> <!-- Modules.CampusForm.TestValidData -->
+    </test> <!-- Campus Valid Form -->
+    <test name="Campus InvValid Form" duration-ms="111947" started-at="2022-01-20T09:14:22Z" finished-at="2022-01-20T09:16:14Z">
+      <class name="Modules.CampusForm.TestInvalidData">
+        <test-method status="PASS" signature="beginTest(java.lang.String)[pri:0, instance:Modules.CampusForm.TestInvalidData@5a61f5df]" name="beginTest" is-config="true" duration-ms="1" started-at="2022-01-20T09:14:22Z" finished-at="2022-01-20T09:14:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Invalid Data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTest -->
+        <test-method status="PASS" signature="GoToURL()[pri:1, instance:Modules.CampusForm.TestInvalidData@5a61f5df]" name="GoToURL" duration-ms="35614" started-at="2022-01-20T09:14:22Z" description="Open Browser and Navigate to URL" finished-at="2022-01-20T09:14:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToURL -->
+        <test-method status="PASS" signature="NavigateToForm()[pri:2, instance:Modules.CampusForm.TestInvalidData@5a61f5df]" name="NavigateToForm" duration-ms="48562" started-at="2022-01-20T09:14:58Z" description="Navigate to Ready To Transform Form" finished-at="2022-01-20T09:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToForm -->
+        <test-method status="PASS" signature="verifyElements()[pri:3, instance:Modules.CampusForm.TestInvalidData@5a61f5df]" name="verifyElements" duration-ms="1814" started-at="2022-01-20T09:15:46Z" description="Verify Visibility Of Form Elements" depends-on-methods="Modules.CampusForm.TestInvalidData.NavigateToForm" finished-at="2022-01-20T09:15:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElements -->
+        <test-method status="PASS" signature="fillFormInvalidData()[pri:4, instance:Modules.CampusForm.TestInvalidData@5a61f5df]" name="fillFormInvalidData" duration-ms="18634" started-at="2022-01-20T09:15:48Z" description="Fill Form with Invalid Data and Verify Results" depends-on-methods="Modules.CampusForm.TestInvalidData.NavigateToForm, Modules.CampusForm.TestInvalidData.verifyElements" finished-at="2022-01-20T09:16:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillFormInvalidData -->
+        <test-method status="PASS" signature="endClass()[pri:0, instance:Modules.CampusForm.TestInvalidData@5a61f5df]" name="endClass" is-config="true" duration-ms="7283" started-at="2022-01-20T09:16:07Z" finished-at="2022-01-20T09:16:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endClass -->
+      </class> <!-- Modules.CampusForm.TestInvalidData -->
+    </test> <!-- Campus InvValid Form -->
+    <test name="Campus Null Form" duration-ms="111303" started-at="2022-01-20T09:16:14Z" finished-at="2022-01-20T09:18:05Z">
+      <class name="Modules.CampusForm.NullData">
+        <test-method status="PASS" signature="beginTest(java.lang.String)[pri:0, instance:Modules.CampusForm.NullData@61dc03ce]" name="beginTest" is-config="true" duration-ms="3" started-at="2022-01-20T09:16:14Z" finished-at="2022-01-20T09:16:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Null Data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beginTest -->
+        <test-method status="PASS" signature="GoToURL()[pri:1, instance:Modules.CampusForm.NullData@61dc03ce]" name="GoToURL" duration-ms="39772" started-at="2022-01-20T09:16:14Z" description="Open Browser and Navigate to URL" finished-at="2022-01-20T09:16:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToURL -->
+        <test-method status="PASS" signature="NavigateToForm()[pri:2, instance:Modules.CampusForm.NullData@61dc03ce]" name="NavigateToForm" duration-ms="60992" started-at="2022-01-20T09:16:54Z" description="Navigate to Ready To Transform Form" finished-at="2022-01-20T09:17:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToForm -->
+        <test-method status="PASS" signature="verifyElements()[pri:3, instance:Modules.CampusForm.NullData@61dc03ce]" name="verifyElements" duration-ms="1020" started-at="2022-01-20T09:17:55Z" description="Verify Visibility Of Form Elements" depends-on-methods="Modules.CampusForm.NullData.NavigateToForm" finished-at="2022-01-20T09:17:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElements -->
+        <test-method status="PASS" signature="submitForm()[pri:4, instance:Modules.CampusForm.NullData@61dc03ce]" name="submitForm" duration-ms="2197" started-at="2022-01-20T09:17:56Z" description="Submit Form With Empty Fields" depends-on-methods="Modules.CampusForm.NullData.NavigateToForm" finished-at="2022-01-20T09:17:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitForm -->
+        <test-method status="PASS" signature="endClass()[pri:0, instance:Modules.CampusForm.NullData@61dc03ce]" name="endClass" is-config="true" duration-ms="7233" started-at="2022-01-20T09:17:58Z" finished-at="2022-01-20T09:18:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endClass -->
+      </class> <!-- Modules.CampusForm.NullData -->
+      <class name="Modules.CampusForm.TestValidData">
+        <test-method status="PASS" signature="Exreporting(java.lang.String)[pri:0, instance:Modules.CampusForm.TestValidData@13fee20c]" name="Exreporting" is-config="true" duration-ms="522" started-at="2022-01-20T09:12:31Z" finished-at="2022-01-20T09:12:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Campus Form]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Exreporting -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:Modules.CampusForm.TestValidData@13fee20c]" name="quit" is-config="true" duration-ms="1616" started-at="2022-01-20T09:18:05Z" finished-at="2022-01-20T09:18:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- Modules.CampusForm.TestValidData -->
+    </test> <!-- Campus Null Form -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="filename" value="Campus Form" />
+	<test name="Campus Valid Form">
+
+		<classes>
+			<class name="Modules.CampusForm.TestValidData">
+				<parameter name="testname" value="Test Valid Data" />
+			</class>
+		</classes>
+		</test>
+		<test name="Campus InvValid Form">
+			<classes>
+				<class name="Modules.CampusForm.TestInvalidData">
+					<parameter name="testname" value="Test Invalid Data" />
+				</class>
+			</classes>
+		</test> <!-- Test -->
+		<test name="Campus Null Form">
+			<classes>
+				<class name="Modules.CampusForm.NullData">
+					<parameter name="testname" value="Null Data" />
+				</class>
+			</classes>
+		</test> <!-- Test -->
+</suite> <!-- Suite -->

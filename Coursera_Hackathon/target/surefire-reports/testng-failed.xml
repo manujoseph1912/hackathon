@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <parameter name="filename" value="Campus Form"/>
+  <test thread-count="5" verbose="0" name="Campus InvValid Form(failed)">
+    <classes>
+      <class name="Modules.CampusForm.TestInvalidData">
+        <parameter name="testname" value="Test Invalid Data"/>
+        <methods>
+          <include name="verifyElements"/>
+          <include name="fillFormInvalidData"/>
+          <include name="beginTest"/>
+          <include name="endClass"/>
+          <include name="NavigateToForm"/>
+        </methods>
+      </class> <!-- Modules.CampusForm.TestInvalidData -->
+    </classes>
+  </test> <!-- Campus InvValid Form(failed) -->
+</suite> <!-- Failed suite [Suite] -->

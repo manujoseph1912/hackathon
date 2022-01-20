@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Suite">
+	<test name="Print Courses">
+		<parameter name="testname" value="Print Courses Smoke Test"/>  
+		<groups>
+		
+			<run>
+				<include name="Smoke" />
+			</run>
+		</groups>
+		<classes>
+			<class name="Modules.PrintCourses" />
+		</classes> 
+	</test>
+	<test name="Language Learning">
+		<parameter name="testname" value="Language Learning Smoke Test"/>  
+		<groups>
+		
+			<run>
+				<include name="Smoke" />
+			</run>
+		</groups>
+		<classes>
+			<class name="Modules.LanguageLearning" />
+		</classes> 
+	</test>
+	
+	
+</suite> <!-- Suite -->

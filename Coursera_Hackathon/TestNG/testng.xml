@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Coursera Functional Suite">
+	<test name="Print Courses">
+		<parameter name="testname" value="Print Courses Test" />
+
+		<classes>
+			<class name="Modules.PrintCourses" />
+		</classes>
+	</test>
+	<!-- <test name="Language Learning"> <parameter name="browserName" value="chrome" 
+		/> <classes> <class name="Modules.LanguageLearning" /> </classes> </test> 
+		<test name="Campus Form"> <parameter name="browserName" value="chrome" /> 
+		<classes> <class name="Modules.CampusForm" /> </classes> </test> --> <!-- Test -->
+</suite> <!-- Suite -->
